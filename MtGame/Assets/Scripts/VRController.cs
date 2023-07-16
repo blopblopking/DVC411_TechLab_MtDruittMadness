@@ -40,8 +40,8 @@ public class VRController : MonoBehaviour
         Quaternion headYaw = Quaternion.Euler(0, rig.Camera.transform.eulerAngles.y, 0);
         Vector3 direction = headYaw * new Vector3(inputAxis.x, 0, inputAxis.y);
         character.Move(speed * Time.fixedDeltaTime * direction);
-        //Gravity Stuff
-        if (CheckIfGrounded())
+ //Gravity Stuff
+ if (CheckIfGrounded())
         {
             fallingSpeed = 0;
         }
@@ -54,8 +54,8 @@ public class VRController : MonoBehaviour
     {
         Vector3 rayStart = transform.TransformPoint(character.center);
         rayLength = character.center.y + 0.01f;
-        //Reports true if on Ground
-        if (Physics.SphereCast(rayStart, character.radius, Vector3.down, out _, rayLength, groundLayer))
+ //Reports true if on Ground
+ if (Physics.SphereCast(rayStart, character.radius, Vector3.down, out _, rayLength, groundLayer))
             return true;
         else
             return false;
