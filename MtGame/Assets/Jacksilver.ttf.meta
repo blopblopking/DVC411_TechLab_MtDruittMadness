@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: 7a6f5fec209591e4a929a6619ecedc35
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Jacksilver
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 582d0540924bf6b4583278b1ad6206ba, type: 3}
+  - {fileID: 12800000, guid: c1c58cd29c948ca49b0fc38544a1e989, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
