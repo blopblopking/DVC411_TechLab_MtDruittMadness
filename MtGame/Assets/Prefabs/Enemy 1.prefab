@@ -34,7 +34,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &8611691590536819253
 MeshFilter:
@@ -121,13 +121,14 @@ MonoBehaviour:
     m_Bits: 128
   health: 100
   walkPoint: {x: 0, y: 0, z: 0}
-  walkPointRange: 0
-  timeBetweenAttacks: 0
-  projectile: {fileID: 0}
+  walkPointSet: 0
+  walkPointRange: 21
+  timeBetweenAttacks: 3
+  projectile: {fileID: 2469897190215105460, guid: a45a9913fb43b6149990b09d2e32499b, type: 3}
   sightRange: 5
   attackRange: 5
-  playerInSightRange: 0
-  playerInAttackRange: 0
+  playerInSightRange: 1
+  playerInAttackRange: 1
 --- !u!195 &8611691590536819255
 NavMeshAgent:
   m_ObjectHideFlags: 0

@@ -13,7 +13,7 @@ public class VRController : MonoBehaviour
     private Vector2 inputAxis;
     private CharacterController character;
 
-    public float speed = 1;
+    public float speed = 30;
     public float gravity = 9.81f;
     private float fallingSpeed;
     public float addHeight = 0.2f;
@@ -41,7 +41,7 @@ public class VRController : MonoBehaviour
         Vector3 direction = headYaw * new Vector3(inputAxis.x, 0, inputAxis.y);
         character.Move(speed * Time.fixedDeltaTime * direction);
  //Gravity Stuff
- if (CheckIfGrounded())
+        if (CheckIfGrounded())
         {
             fallingSpeed = 0;
         }
@@ -50,16 +50,17 @@ public class VRController : MonoBehaviour
         character.Move(fallingSpeed * Time.fixedDeltaTime * Vector3.up);
     }
 
- bool CheckIfGrounded()
-    {
-        Vector3 rayStart = transform.TransformPoint(character.center);
-        rayLength = character.center.y + 0.01f;
- //Reports true if on Ground
- if (Physics.SphereCast(rayStart, character.radius, Vector3.down, out _, rayLength, groundLayer))
-            return true;
-        else
-            return false;
-    }
+     bool CheckIfGrounded()
+     {
+            Vector3 rayStart = transform.TransformPoint(character.center);
+            rayLength = character.center.y + 0.01f;
+            //Reports true if on Ground
+            if (Physics.SphereCast(rayStart, character.radius, Vector3.down, out _, rayLength, groundLayer))
+                return true;
+            else
+                return false;
+     }
+
     void CapsuleFollow()
     {
         character.height = rig.CameraInOriginSpaceHeight + addHeight;
