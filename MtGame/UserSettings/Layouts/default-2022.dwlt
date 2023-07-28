@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Hierarchy
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 102
+  controlID: 44
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -92,7 +92,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 315
+    width: 350
     height: 633
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
@@ -264,9 +264,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 315
+    x: 350
     y: 0
-    width: 1216
+    width: 1181
     height: 633
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
@@ -346,22 +346,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials/Skybox
+    - Assets/Prefabs
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials/Skybox
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
-  m_LastProjectPath: C:\Users\ultimo.media\DVC411_TechLab_MtDruittMadness\MtGame
+  m_LastProjectPath: C:\Users\ultimo.media\Documents\GitHub\DVC411_TechLab_MtDruittMadness\MtGame
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 60790000
-    m_LastClickedID: 31072
-    m_ExpandedIDs: 00000000fe76000006770000
+    scrollPos: {x: 0, y: 60}
+    m_SelectedIDs: 0e770000
+    m_LastClickedID: 30478
+    m_ExpandedIDs: 00000000067700000c77000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -508,7 +508,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 73
-    width: 314
+    width: 349
     height: 612
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -517,9 +517,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 508fffff
-      m_LastClickedID: -28848
-      m_ExpandedIDs: 9c8fffffdaa4ffff18baffff96cfffffe8e4ffff18fbffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 8c8afeffee8cfeffa0a2feff1aa4feff7eb4feff8ab4feff20c9feff42defeffd4f3feffc40effffc60effff3227ffff8c27ffff0a68ffff387dffff847dffff8ec5ffff90c5ffff72e3ffff82e3ffffaefaffff08fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -563,9 +563,9 @@ MonoBehaviour:
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: 315
+    x: 350
     y: 73
-    width: 1214
+    width: 1179
     height: 612
   m_ViewDataDictionary: {fileID: 0}
   m_OverlayCanvas:
@@ -801,9 +801,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -9.350613, y: 17.51575, z: 9.457116}
+    m_Target: {x: 66.89743, y: 6.0089636, z: 91.51292}
     speed: 2
-    m_Value: {x: -9.350613, y: 17.51575, z: 9.457116}
+    m_Value: {x: 66.89742, y: 6.0089636, z: 91.51291}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -849,13 +849,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.0101523725, y: 0.9884644, z: -0.07908087, w: 0.12917377}
+    m_Target: {x: 0.049529735, y: -0.6605323, z: -0.04309217, w: -0.7480398}
     speed: 2
-    m_Value: {x: 0.010033214, y: 0.9886053, z: -0.07909187, w: 0.12768425}
+    m_Value: {x: 0.048403524, y: -0.6605379, z: -0.042097412, w: -0.74804723}
   m_Size:
-    m_Target: 14.477379
+    m_Target: 2.0201478
     speed: 2
-    m_Value: 15.159559
+    m_Value: 2.0201478
   m_Ortho:
     m_Target: 0
     speed: 2
