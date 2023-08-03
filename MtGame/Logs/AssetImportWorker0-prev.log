@@ -15,7 +15,7 @@ C:/Users/ultimo.media/Documents/DVC411_TechLab_MtDruittMadness/MtGame
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56870
+58792
 Successfully changed project path to: C:/Users/ultimo.media/Documents/DVC411_TechLab_MtDruittMadness/MtGame
 C:/Users/ultimo.media/Documents/DVC411_TechLab_MtDruittMadness/MtGame
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,8 +47,8 @@ C:/Users/ultimo.media/Documents/DVC411_TechLab_MtDruittMadness/MtGame
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 96.72 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 1.52 ms.
+Refreshing native plugins compatible for Editor in 102.79 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 1.58 ms.
 Initialize engine version: 2022.1.23f1 (9636b062134a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/ultimo.media/Documents/DVC411_TechLab_MtDruittMadness/MtGame/Assets
@@ -63,57 +63,57 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56352
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56408
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008696 seconds.
+Registered in 0.007354 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 95.33 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.22 ms.
+Refreshing native plugins compatible for Editor in 93.62 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.20 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.689 seconds
+- Completed reload, in  0.673 seconds
 Domain Reload Profiling:
-	ReloadAssembly (689ms)
-		BeginReloadAssembly (78ms)
+	ReloadAssembly (674ms)
+		BeginReloadAssembly (71ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (505ms)
-			LoadAssemblies (76ms)
+		EndReloadAssembly (498ms)
+			LoadAssemblies (70ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (110ms)
-				TypeCache.Initialize (110ms)
-					TypeCache.ScanAssembly (108ms)
-				ResolveRequiredComponents (1ms)
+			SetupTypeCache (113ms)
+				TypeCache.Initialize (113ms)
+					TypeCache.ScanAssembly (112ms)
+				ResolveRequiredComponents (0ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (30ms)
-			SetupLoadedEditorAssemblies (309ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (302ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (52ms)
 				SetLoadedEditorAssemblies (9ms)
-				RefreshPlugins (96ms)
+				RefreshPlugins (94ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (107ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
+				ProcessInitializeOnLoadAttributes (103ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006188 seconds.
+Registered in 0.006313 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\ultimo.media\Documents\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\ultimo.media\Documents\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 92.89 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.07 ms.
+Refreshing native plugins compatible for Editor in 95.52 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.13 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
@@ -140,46 +140,46 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Completed reload, in  1.513 seconds
+- Completed reload, in  1.474 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1514ms)
-		BeginReloadAssembly (232ms)
+	ReloadAssembly (1475ms)
+		BeginReloadAssembly (226ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (126ms)
-		EndReloadAssembly (1172ms)
-			LoadAssemblies (91ms)
+			CreateAndSetChildDomain (125ms)
+		EndReloadAssembly (1142ms)
+			LoadAssemblies (85ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (283ms)
-				TypeCache.Initialize (277ms)
-					TypeCache.ScanAssembly (273ms)
+			SetupTypeCache (278ms)
+				TypeCache.Initialize (272ms)
+					TypeCache.ScanAssembly (269ms)
 				ResolveRequiredComponents (6ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (686ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (663ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (14ms)
-				SetLoadedEditorAssemblies (7ms)
-				RefreshPlugins (93ms)
-				BeforeProcessingInitializeOnLoad (116ms)
-				ProcessInitializeOnLoadAttributes (419ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (96ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (398ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.82 ms, found 6 plugins.
-Preloading 1 native plugins for Editor in 0.12 ms.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.69 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.10 ms.
 Unloading 4360 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 55 unused Assets / (1.6 MB). Loaded Objects now: 4824.
 Memory consumption went from 0.66 GB to 0.66 GB.
-Total: 3.504900 ms (FindLiveObjects: 0.353200 ms CreateObjectMapping: 0.309200 ms MarkObjects: 2.534800 ms  DeleteObjects: 0.306900 ms)
+Total: 3.123500 ms (FindLiveObjects: 0.310000 ms CreateObjectMapping: 0.278000 ms MarkObjects: 2.250600 ms  DeleteObjects: 0.284300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -193,73 +193,43 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 265110.658387 seconds.
-  path: Assets/TextMesh Pro
-  artifactKey: Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro using Guid(f54d1bd14bd3ca042bd867b519fee8cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f4ca5e3d5f46fc66754ea719f7078ea') in 0.002638 seconds 
+  Time since last request: 265721.015240 seconds.
+  path: Assets/Prefabs/Enemy 1.prefab
+  artifactKey: Guid(f8fde63e07fdc4147bddb8bb451579b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy 1.prefab using Guid(f8fde63e07fdc4147bddb8bb451579b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83595e00fe991f9d56f7e9e18fd1b182') in 0.117499 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/TextMesh Pro/Fonts
-  artifactKey: Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts using Guid(6ab70aee4d56447429c680537fbf93ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04f313f1aae9fc7a695454ec11bd3497') in 0.001733 seconds 
+  Time since last request: 11.423015 seconds.
+  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Anton OFL.txt
+  artifactKey: Guid(73a79399807f4e8388c2cbb5494681ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Anton OFL.txt using Guid(73a79399807f4e8388c2cbb5494681ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a9209b4f52e421a395cb2468496411') in 0.004711 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 33.732558 seconds.
-  path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
-  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b4d1acb99aa7b50d2a38844fa43a6c8') in 0.064453 seconds 
+  Time since last request: 110.199297 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/Jacksilver.otf
+  artifactKey: Guid(c1c58cd29c948ca49b0fc38544a1e989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/Jacksilver.otf using Guid(c1c58cd29c948ca49b0fc38544a1e989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c2a77ae9f0161189b2bd2cd498d36d') in 0.054753 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.115684 seconds.
-  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
-  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5cc59edf6867ce8821c9fdcaf6777266') in 0.038312 seconds 
+  Time since last request: 204.029480 seconds.
+  path: Assets/Jacksilver.ttf
+  artifactKey: Guid(7a6f5fec209591e4a929a6619ecedc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jacksilver.ttf using Guid(7a6f5fec209591e4a929a6619ecedc35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b415fd7d028759cc380736c0c5c05068') in 0.030043 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.162872 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Fonts
-  artifactKey: Guid(b63e0053080646b9819789bf3bf9fa17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Fonts using Guid(b63e0053080646b9819789bf3bf9fa17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e8e91a8c663f5efcdcc52071a700d6') in 0.001274 seconds 
+  Time since last request: 233.876105 seconds.
+  path: Assets/New Font.fontsettings
+  artifactKey: Guid(65dfd4cc8d3635f4d9db63f24c182039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Font.fontsettings using Guid(65dfd4cc8d3635f4d9db63f24c182039) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef1aa92ebe54f77c73c335deba9f1ea') in 0.004329 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.569117 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras
-  artifactKey: Guid(ce51c8e33b734b4db6086586558c53a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras using Guid(ce51c8e33b734b4db6086586558c53a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff84ad7fa908565665e3ac7d1f774747') in 0.001802 seconds 
+  Time since last request: 26.621668 seconds.
+  path: Assets/Jacksilver SDF.asset
+  artifactKey: Guid(4b3accc1024fc4c4e978a90f24bb9ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jacksilver SDF.asset using Guid(4b3accc1024fc4c4e978a90f24bb9ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0de163bb6376be2ba2824652409129') in 0.035630 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 143.692829 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMPro.cginc
-  artifactKey: Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMPro.cginc using Guid(407bc68d299748449bbf7f48ee690f8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960c679d3c0e6bf7388f7532fde0e35d') in 0.003838 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000014 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
-  artifactKey: Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc using Guid(d930090c0cd643c7b55f19a38538c162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eaf1dad24da07cf0ee94d48c1d2414e') in 0.002314 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
-  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cce0341cd3065819d316b1120468d17d') in 0.002091 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.526587 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers - OFL.txt
-  artifactKey: Guid(efe0bf4ac872451e91612d1ae593f480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers - OFL.txt using Guid(efe0bf4ac872451e91612d1ae593f480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bea9fb2aa8c39ba376c507ee46dd7e4b') in 0.001892 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.236837 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Jacksilver.ttf
-  artifactKey: Guid(f9f535970a38c874587969d9f52cec63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Jacksilver.ttf using Guid(f9f535970a38c874587969d9f52cec63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99eb3424c6f879f2122be2bd8485e8a8') in 0.085497 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.623228 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Street Wars Demo.ttf
-  artifactKey: Guid(0aa18dc165f5ca14c90e7c6933e0c779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Street Wars Demo.ttf using Guid(0aa18dc165f5ca14c90e7c6933e0c779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59146fcc76e34643d48313549ad9e4d') in 0.034862 seconds 
+  Time since last request: 389.941053 seconds.
+  path: Assets/Jacksilver SDF.asset
+  artifactKey: Guid(4b3accc1024fc4c4e978a90f24bb9ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Jacksilver SDF.asset using Guid(4b3accc1024fc4c4e978a90f24bb9ccf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '835c7464f9b49db435198e6a6eec2c30') in 0.036072 seconds 
