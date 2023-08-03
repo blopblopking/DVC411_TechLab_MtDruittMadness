@@ -5,6 +5,8 @@ using UnityEngine;
 using UnityEngine.XR;
 using UnityEngine.XR.Interaction.Toolkit;
 using UnityEngine.AI;
+using static UnityEngine.GraphicsBuffer;
+using System.IO;
 
 public class EnemyAi : MonoBehaviour
 {
@@ -18,6 +20,7 @@ public class EnemyAi : MonoBehaviour
 
     //Patroling
     public Vector3 walkPoint;
+    [SerializeField]
     bool walkPointSet;
     public float walkPointRange;
 
@@ -32,12 +35,9 @@ public class EnemyAi : MonoBehaviour
 
     private void Awake()
     {
-        player = GameObject.Find("PlayerObj").transform;
-        EnemyAi.Awake("Enemy1");
+        player = GameObject.Find("VR Rig").transform;
         agent = GetComponent<NavMeshAgent>();
     }
-
-    private static void Awake(string v) => throw new System.NotImplementedException();
 
     private void Update()
     {
@@ -70,8 +70,8 @@ public class EnemyAi : MonoBehaviour
         float randomX = Random.Range(-walkPointRange, walkPointRange);
 
         walkPoint = new Vector3(transform.position.x + randomX, transform.position.y, transform.position.z + randomZ);
-
-        if (Physics.Raycast(walkPoint, -transform.up, 2f, whatIsGround))
+        NavMeshPath path = new NavMeshPath();
+        if ((Physics.Raycast(walkPoint, -transform.up, 2f, whatIsGround)) && (agent.CalculatePath(walkPoint, path)))
             walkPointSet = true;
     }
 
@@ -121,21 +121,5 @@ public class EnemyAi : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, attackRange);
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireSphere(transform.position, sightRange);
-    }
-}
-
-
-public class NewBehaviourScript : MonoBehaviour
-{
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 }
