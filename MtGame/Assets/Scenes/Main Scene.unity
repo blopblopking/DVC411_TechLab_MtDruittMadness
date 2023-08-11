@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.5682256, g: 0.7681161, b: 0.959426, a: 1}
+  m_IndirectSpecularColor: {r: 0.5696573, g: 0.7680108, b: 0.96259445, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -341,7 +341,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 905312889771742259, guid: 3ceace738664c6549a88c1917e8a984b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -39.52463
+      value: -38.26
       objectReference: {fileID: 0}
     - target: {fileID: 905312889771742259, guid: 3ceace738664c6549a88c1917e8a984b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -982,7 +982,7 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &512948999
+--- !u!114 &512949004
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -991,13 +991,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 512948992}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 057a432cbd9d87249b9a3114bbfeb839, type: 3}
+  m_Script: {fileID: 11500000, guid: 6f942c15bf589a241874916e187c33c2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreText: {fileID: 0}
-  amountPickedUp: 1
-  collectSound: {fileID: 1060977466}
-  Door: {fileID: 438538899}
+  amountPickedUp: 0
+  Door: {fileID: 0}
 --- !u!1001 &514750601
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2096,6 +2094,10 @@ PrefabInstance:
       propertyPath: collectSound
       value: 
       objectReference: {fileID: 1060977466}
+    - target: {fileID: 1825003089, guid: b57e045eb51f69a40be5d3d6d238bfad, type: 3}
+      propertyPath: amountPickedUp
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 283631443994667922, guid: b57e045eb51f69a40be5d3d6d238bfad, type: 3}
       propertyPath: m_RootOrder
       value: 9
