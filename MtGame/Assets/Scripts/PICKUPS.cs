@@ -18,6 +18,7 @@ public class PICKUPS : MonoBehaviour
         Destroy(gameObject);
    
     }
+
     private void Update()
     {
         if (amountPickedUp == 5)
