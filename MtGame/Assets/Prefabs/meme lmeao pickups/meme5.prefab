@@ -13,10 +13,11 @@ GameObject:
   - component: {fileID: 4621757672334935878}
   - component: {fileID: 4621757672334935873}
   - component: {fileID: 4621757672334935872}
-  - component: {fileID: 4621757672334935875}
+  - component: {fileID: 1216209635}
+  - component: {fileID: 3507730468817507347}
   m_Layer: 0
   m_Name: meme5
-  m_TagString: Untagged
+  m_TagString: Pick Up
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -34,7 +35,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!33 &4621757672334935879
 MeshFilter:
@@ -94,7 +95,7 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4621757672334935874}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
   m_Size: {x: 1, y: 1, z: 1}
@@ -111,7 +112,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1b7581a77dc0a0e43b620bb95bb6bb2d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &4621757672334935875
+--- !u!114 &1216209635
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -126,3 +127,17 @@ MonoBehaviour:
   scoreText: {fileID: 0}
   amountPickedUp: 0
   collectSound: {fileID: 0}
+  Door: {fileID: 0}
+--- !u!114 &3507730468817507347
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4621757672334935874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b63e11615055ea94db7583e9cfb0936c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LoreSound: {fileID: 0}
