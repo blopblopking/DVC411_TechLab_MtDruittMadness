@@ -14,7 +14,7 @@ public class Openthenorr : MonoBehaviour
     }
     void OnTriggerEnter(Collider other)
     {
-        if(CompareTag("Pick Up"))
+        if(other.CompareTag("Pick Up"))
         amountPickedUp += 1;
     }
     // Update is called once per frame

@@ -18,6 +18,7 @@ public class EnemyAi : MonoBehaviour
 
     public float health;
 
+
     //Patroling
     public Vector3 walkPoint;
     [SerializeField]
@@ -124,7 +125,7 @@ public class EnemyAi : MonoBehaviour
         Gizmos.DrawWireSphere(transform.position, sightRange);
     }
 
-    void OnTriggerEnter(Collider other)
+    void OnCollisionEnter(Collision other)
     {
         if (other.gameObject.CompareTag("Weapon"))
         {

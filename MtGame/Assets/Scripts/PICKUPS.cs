@@ -7,10 +7,12 @@ public class PICKUPS : MonoBehaviour
 {
     public GameObject scoreText;
     public AudioSource collectSound;
+    public AudioSource LoreSound;
 
-     void OnTriggerEnter(Collider other)
+    void OnTriggerEnter(Collider other)
     {
         collectSound.Play();
+        LoreSound.Play();
         Destroy(this.gameObject);
     }
 

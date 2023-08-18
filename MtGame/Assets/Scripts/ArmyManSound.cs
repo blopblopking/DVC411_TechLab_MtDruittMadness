@@ -12,7 +12,6 @@ public class ArmyManSound : MonoBehaviour
     {
         timer = 0;
         openingSound.Play();
-        Destroy(gameObject);
     }
 
     // Update is called once per frame
