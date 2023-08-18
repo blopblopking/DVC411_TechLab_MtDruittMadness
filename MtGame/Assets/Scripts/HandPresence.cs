@@ -15,11 +15,13 @@ public class HandPresence : MonoBehaviour
     private InputDevice targetDevice;
     private GameObject spawnedController;
     private GameObject spawnedHandModel;
+    private GameMenuManager manager;
 
 
     // Start is called before the first frame update
     void Start()
     {
+        manager = GameObject.Find ("Game Menu").GetComponent<GameMenuManager> ();
         List<InputDevice> devices = new List<InputDevice>();
 
         InputDevices.GetDevicesWithCharacteristics(controllerCharacter, devices);
@@ -37,15 +39,15 @@ public class HandPresence : MonoBehaviour
     }
     void UpdateHandAnimation()
     {
-// Checks if the current controller has the input, returns true if there is a value
+        // Checks if the current controller has the input, returns true if there is a value
         if (targetDevice.TryGetFeatureValue(CommonUsages.trigger, out float triggerValue))
         {
-// Sets the animation parameter “Trigger” to the found value from the controller
+            // Sets the animation parameter “Trigger” to the found value from the controller
             handAnimator.SetFloat("Trigger", triggerValue);
         }
         else
         {
-// Sets the animation parameter to 0 if nothing is found
+            // Sets the animation parameter to 0 if nothing is found
             handAnimator.SetFloat("Trigger", 0);
         }
 
@@ -56,6 +58,19 @@ public class HandPresence : MonoBehaviour
         else
         {
             handAnimator.SetFloat("Grip", 0);
+        }
+
+    }
+    void Menu()
+    {
+        if (targetDevice.TryGetFeatureValue(CommonUsages.primaryButton, out bool buttonpressed))
+        {
+            if (buttonpressed)
+            {
+                manager.menu.SetActive(true);
+            }
+            else 
+                manager.menu.SetActive(false);
         }
     }
 
