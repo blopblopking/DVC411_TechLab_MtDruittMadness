@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2022.1/staging' branch; Version is '2022.1.23f1 (9636b062134a) revision 9844400'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32705 MB
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32708 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,6 +11,7 @@ C:\Program Files\Unity\Hub\Editor\2022.1.23f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
+<<<<<<< HEAD
 C:/Users/ultimo.media/Documents/GitHub/DVC411_TechLab_MtDruittMadness/MtGame
 -logFile
 Logs/AssetImportWorker0.log
@@ -18,6 +19,15 @@ Logs/AssetImportWorker0.log
 59737
 Successfully changed project path to: C:/Users/ultimo.media/Documents/GitHub/DVC411_TechLab_MtDruittMadness/MtGame
 C:/Users/ultimo.media/Documents/GitHub/DVC411_TechLab_MtDruittMadness/MtGame
+=======
+C:/Users/ultimo.media/Documents/DVC411_TechLab_MtDruittMadness/MtGame
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+54615
+Successfully changed project path to: C:/Users/ultimo.media/Documents/DVC411_TechLab_MtDruittMadness/MtGame
+C:/Users/ultimo.media/Documents/DVC411_TechLab_MtDruittMadness/MtGame
+>>>>>>> 1371c9eac6b019b26ba08d284fb26876aecb0b8b
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -50,11 +60,19 @@ C:/Users/ultimo.media/Documents/GitHub/DVC411_TechLab_MtDruittMadness/MtGame
 Assets/LOW POLY ASSETS/Iron_Man_Mark_44_Hulkbuster/Iron_Man_Mark_44_Hulkbuster.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 103.41 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 1.38 ms.
 Initialize engine version: 2022.1.23f1 (9636b062134a)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/ultimo.media/Documents/GitHub/DVC411_TechLab_MtDruittMadness/MtGame/Assets
+=======
+Refreshing native plugins compatible for Editor in 106.65 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 1.48 ms.
+Initialize engine version: 2022.1.23f1 (9636b062134a)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/ultimo.media/Documents/DVC411_TechLab_MtDruittMadness/MtGame/Assets
+>>>>>>> 1371c9eac6b019b26ba08d284fb26876aecb0b8b
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -66,17 +84,26 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< HEAD
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
+>>>>>>> 1371c9eac6b019b26ba08d284fb26876aecb0b8b
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.1.23f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+<<<<<<< HEAD
 Registered in 0.007217 seconds.
+=======
+Registered in 0.007074 seconds.
+>>>>>>> 1371c9eac6b019b26ba08d284fb26876aecb0b8b
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Assets/LOW POLY ASSETS/Iron_Man_Mark_44_Hulkbuster/Iron_Man_Mark_44_Hulkbuster.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 100.62 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.17 ms.
 Mono: successfully reloaded assembly
@@ -84,11 +111,21 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (662ms)
 		BeginReloadAssembly (65ms)
+=======
+Refreshing native plugins compatible for Editor in 104.53 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.25 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.686 seconds
+Domain Reload Profiling:
+	ReloadAssembly (687ms)
+		BeginReloadAssembly (67ms)
+>>>>>>> 1371c9eac6b019b26ba08d284fb26876aecb0b8b
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 		EndReloadAssembly (492ms)
 			LoadAssemblies (63ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -106,30 +143,65 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (101ms)
 				ProcessInitializeOnLoadMethodAttributes (41ms)
+=======
+		EndReloadAssembly (515ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (112ms)
+				TypeCache.Initialize (111ms)
+					TypeCache.ScanAssembly (110ms)
+				ResolveRequiredComponents (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (319ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (54ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (105ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (106ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+>>>>>>> 1371c9eac6b019b26ba08d284fb26876aecb0b8b
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.006705 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\ultimo.media\Documents\GitHub\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\ultimo.media\Documents\GitHub\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+=======
+Registered in 0.005543 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ultimo.media\Documents\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ultimo.media\Documents\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+>>>>>>> 1371c9eac6b019b26ba08d284fb26876aecb0b8b
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Assets/LOW POLY ASSETS/Iron_Man_Mark_44_Hulkbuster/Iron_Man_Mark_44_Hulkbuster.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 99.29 ms, found 6 plugins.
+=======
+Refreshing native plugins compatible for Editor in 104.84 ms, found 6 plugins.
+>>>>>>> 1371c9eac6b019b26ba08d284fb26876aecb0b8b
 Preloading 1 native plugins for Editor in 0.07 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+<<<<<<< HEAD
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\ultimo.media\Documents\GitHub\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\ultimo.media\Documents\GitHub\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+=======
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in C:\Users\ultimo.media\Documents\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\ultimo.media\Documents\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+>>>>>>> 1371c9eac6b019b26ba08d284fb26876aecb0b8b
   at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
   at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <252f5a151e57406087568ebdeb88d5fe>:0 
    --- End of inner exception stack trace ---
@@ -149,14 +221,22 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+<<<<<<< HEAD
 - Completed reload, in  1.457 seconds
 Domain Reload Profiling:
 	ReloadAssembly (1457ms)
 		BeginReloadAssembly (222ms)
+=======
+- Completed reload, in  1.518 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1519ms)
+		BeginReloadAssembly (208ms)
+>>>>>>> 1371c9eac6b019b26ba08d284fb26876aecb0b8b
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 			CreateAndSetChildDomain (133ms)
 		EndReloadAssembly (1126ms)
 			LoadAssemblies (86ms)
@@ -175,6 +255,26 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (107ms)
 				ProcessInitializeOnLoadAttributes (359ms)
 				ProcessInitializeOnLoadMethodAttributes (27ms)
+=======
+			CreateAndSetChildDomain (120ms)
+		EndReloadAssembly (1196ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (282ms)
+				TypeCache.Initialize (276ms)
+					TypeCache.ScanAssembly (272ms)
+				ResolveRequiredComponents (6ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (68ms)
+			SetupLoadedEditorAssemblies (701ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (105ms)
+				BeforeProcessingInitializeOnLoad (129ms)
+				ProcessInitializeOnLoadAttributes (410ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+>>>>>>> 1371c9eac6b019b26ba08d284fb26876aecb0b8b
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -188,6 +288,7 @@ Worker process is ready to serve import requests
 Assets/LOW POLY ASSETS/Iron_Man_Mark_44_Hulkbuster/Iron_Man_Mark_44_Hulkbuster.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
+<<<<<<< HEAD
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
 Refreshing native plugins compatible for Editor in 0.87 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.08 ms.
@@ -195,6 +296,15 @@ Unloading 4742 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 56 unused Assets / (1.6 MB). Loaded Objects now: 5203.
 Memory consumption went from 0.72 GB to 0.72 GB.
 Total: 3.505600 ms (FindLiveObjects: 0.375300 ms CreateObjectMapping: 0.357800 ms MarkObjects: 2.408800 ms  DeleteObjects: 0.362700 ms)
+=======
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.08 ms.
+Unloading 4743 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 56 unused Assets / (1.6 MB). Loaded Objects now: 5204.
+Memory consumption went from 0.72 GB to 0.72 GB.
+Total: 3.936400 ms (FindLiveObjects: 0.423400 ms CreateObjectMapping: 0.426700 ms MarkObjects: 2.657200 ms  DeleteObjects: 0.428200 ms)
+>>>>>>> 1371c9eac6b019b26ba08d284fb26876aecb0b8b
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -208,6 +318,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< HEAD
   Time since last request: 77230.590071 seconds.
   path: Assets/Scenes
   artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -260,12 +371,133 @@ Received Import Request.
   path: Assets/Scripts/PICKUPS.cs
   artifactKey: Guid(057a432cbd9d87249b9a3114bbfeb839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scripts/PICKUPS.cs using Guid(057a432cbd9d87249b9a3114bbfeb839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5b3d8a87bfef6b7c6a7b30c35f4056') in 0.001917 seconds 
+=======
+  Time since last request: 694816.024871 seconds.
+  path: Assets/Materials/UI_Hoes/bricks.mat
+  artifactKey: Guid(0dcb4db2022ceef43a291b58af8ab83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/UI_Hoes/bricks.mat using Guid(0dcb4db2022ceef43a291b58af8ab83e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0698976bbf8f6ee59acebde6b6bb8cc') in 0.147268 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.286496 seconds.
+  path: Assets/Environment Stuff/Free Green Screen Explosion Effect + Sound Effect (Short Version).mp4
+  artifactKey: Guid(94fb10004e8c9c94d91ac0635c19dabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment Stuff/Free Green Screen Explosion Effect + Sound Effect (Short Version).mp4 using Guid(94fb10004e8c9c94d91ac0635c19dabd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a219ef234a243aba1c275c1d9ef032f6') in 0.160543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.492337 seconds.
+  path: Assets/Green grass 1.terrainlayer
+  artifactKey: Guid(b38ecf8cb19ce844491db1c6783e35d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Green grass 1.terrainlayer using Guid(b38ecf8cb19ce844491db1c6783e35d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a75c9c7b1e82cdea831e3c882f3ad4ec') in 0.013386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/lighter green.terrainlayer
+  artifactKey: Guid(09485c41afda1614aab6dea21c3f13c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/lighter green.terrainlayer using Guid(09485c41afda1614aab6dea21c3f13c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406c3c757169aa3694dcd035cbd18300') in 0.007183 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(d0564aa07ec2b3f4bb0655b1c732f0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(d0564aa07ec2b3f4bb0655b1c732f0c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e618f2912e24a5c47d7cc08b7fe8e4d') in 0.010593 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.165866 seconds.
+  path: Assets/Materials/AndrewTate_Enemy 2.mat
+  artifactKey: Guid(6ba68efbf0b204075acd26b049804024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/AndrewTate_Enemy 2.mat using Guid(6ba68efbf0b204075acd26b049804024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eedddc43ccf77dc422ef3edb22ed92fd') in 0.014010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Materials/neutral.mat
+  artifactKey: Guid(4b18d49e744157b439f6cd0e21c5716b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/neutral.mat using Guid(4b18d49e744157b439f6cd0e21c5716b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c298eea1dff47a9b3ebd9e0016c16905') in 0.011414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Materials/dog.mat
+  artifactKey: Guid(544045fc865ef7c4d93a07cd154f0a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/dog.mat using Guid(544045fc865ef7c4d93a07cd154f0a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98cf9f280363b76a0ce8d9021b8fe255') in 0.023402 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Materials/NeckBeard_Enemy.mat
+  artifactKey: Guid(3ec70beaa3c6e416db6a21c0397229cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/NeckBeard_Enemy.mat using Guid(3ec70beaa3c6e416db6a21c0397229cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4e9afc492e6d31589b69260c9a3e02') in 0.011802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Materials/Projectile.mat
+  artifactKey: Guid(66ccef9eb09544b30ab237c2543a0e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Projectile.mat using Guid(66ccef9eb09544b30ab237c2543a0e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd04c11ed79d53fddf2384b9472a9708') in 0.012449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Materials/home page.png
+  artifactKey: Guid(dc3acd896a344784fb943cedde7958d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/home page.png using Guid(dc3acd896a344784fb943cedde7958d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eff81c0f55f7ba801297f9abcaa4aa0') in 0.016631 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Materials/neckbeard.jpeg
+  artifactKey: Guid(4307358b6b0b9489da01f7ff3826a829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/neckbeard.jpeg using Guid(4307358b6b0b9489da01f7ff3826a829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c65450dc093aeb9ba1d5f2c312b34db') in 0.010733 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Materials/Water.mat
+  artifactKey: Guid(8bbaf7f4f882e1f46b2bba5528d4ff01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Water.mat using Guid(8bbaf7f4f882e1f46b2bba5528d4ff01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e2a0979476d32c811bdad66d9427d1') in 0.023006 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Materials/Weezer.mat
+  artifactKey: Guid(b62ebea49a0a48e42b94e0a58ce012f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/Weezer.mat using Guid(b62ebea49a0a48e42b94e0a58ce012f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9300e6db6c0a5aa800887121be63073d') in 0.012145 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Materials/HomePage.mat
+  artifactKey: Guid(33fc6e34d47aa2e40a2b256b37a2c810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/HomePage.mat using Guid(33fc6e34d47aa2e40a2b256b37a2c810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0486e5908ff8e1574b028a6ccaece6') in 0.011150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.370303 seconds.
+  path: Assets/Scenes/Main Scene
+  artifactKey: Guid(a78dc8c0df34840c39c157d303888395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Scene using Guid(a78dc8c0df34840c39c157d303888395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7ec2941ff1b1bdd5f29b98027036173') in 0.001659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029393 seconds.
+  path: Assets/Scenes/Main Scene/NavMesh.asset
+  artifactKey: Guid(d173c130aa5673f4594ee4604ad7b316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Scene/NavMesh.asset using Guid(d173c130aa5673f4594ee4604ad7b316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7294b1e8401f902270c57ecc80a3bfd') in 0.002138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.984712 seconds.
+  path: Assets/Scenes/Main Scene.unity
+  artifactKey: Guid(e06869b892ab9bd44abc429ece47bae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Main Scene.unity using Guid(e06869b892ab9bd44abc429ece47bae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '059288d640d3baded02cea73eb8e72b5') in 0.001644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.967349 seconds.
+  path: Assets/Scenes/UI_Hoes.unity
+  artifactKey: Guid(d57868c4ab26798439fe5b7a3701d4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/UI_Hoes.unity using Guid(d57868c4ab26798439fe5b7a3701d4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2830d1da48b1130cf206d8b182c51b') in 0.001887 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 651.878374 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(860f7681657e94c4b9ce81c38e9c7fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts using Guid(860f7681657e94c4b9ce81c38e9c7fcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b526bf6bc545ded241dfbea0f75f661') in 0.001614 seconds 
+>>>>>>> 1371c9eac6b019b26ba08d284fb26876aecb0b8b
 ========================================================================
 Received Prepare
 Assets/LOW POLY ASSETS/Iron_Man_Mark_44_Hulkbuster/Iron_Man_Mark_44_Hulkbuster.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
 
 Please note that FBX files exported from Cinema4D are still supported.
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.005599 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\ultimo.media\Documents\GitHub\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
@@ -274,12 +506,27 @@ Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Refreshing native plugins compatible for Editor in 0.90 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.12 ms.
+=======
+Registered in 0.005502 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ultimo.media\Documents\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ultimo.media\Documents\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.09 ms.
+>>>>>>> 1371c9eac6b019b26ba08d284fb26876aecb0b8b
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+<<<<<<< HEAD
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\ultimo.media\Documents\GitHub\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\ultimo.media\Documents\GitHub\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+=======
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in C:\Users\ultimo.media\Documents\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\ultimo.media\Documents\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+>>>>>>> 1371c9eac6b019b26ba08d284fb26876aecb0b8b
   at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
   at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <252f5a151e57406087568ebdeb88d5fe>:0 
    --- End of inner exception stack trace ---
@@ -296,6 +543,7 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+<<<<<<< HEAD
 - Completed reload, in  1.121 seconds
 Domain Reload Profiling:
 	ReloadAssembly (1121ms)
@@ -384,11 +632,18 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (1092ms)
 		BeginReloadAssembly (122ms)
+=======
+- Completed reload, in  1.185 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1186ms)
+		BeginReloadAssembly (127ms)
+>>>>>>> 1371c9eac6b019b26ba08d284fb26876aecb0b8b
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (37ms)
+<<<<<<< HEAD
 		EndReloadAssembly (883ms)
 			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -406,11 +661,31 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (73ms)
 				ProcessInitializeOnLoadAttributes (302ms)
 				ProcessInitializeOnLoadMethodAttributes (27ms)
+=======
+		EndReloadAssembly (972ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (253ms)
+				TypeCache.Initialize (247ms)
+					TypeCache.ScanAssembly (242ms)
+				ResolveRequiredComponents (6ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (536ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (19ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (87ms)
+				ProcessInitializeOnLoadAttributes (384ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+>>>>>>> 1371c9eac6b019b26ba08d284fb26876aecb0b8b
 				AfterProcessingInitializeOnLoad (8ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 2.44 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.08 ms.
 Unloading 4657 Unused Serialized files (Serialized files now loaded: 0)
@@ -507,6 +782,14 @@ Unloading 4657 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 36 unused Assets / (1.6 MB). Loaded Objects now: 5263.
 Memory consumption went from 0.71 GB to 0.71 GB.
 Total: 3.062900 ms (FindLiveObjects: 0.297300 ms CreateObjectMapping: 0.240000 ms MarkObjects: 2.221400 ms  DeleteObjects: 0.303700 ms)
+=======
+Refreshing native plugins compatible for Editor in 2.18 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 4658 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (2.1 MB). Loaded Objects now: 5254.
+Memory consumption went from 0.71 GB to 0.71 GB.
+Total: 3.283500 ms (FindLiveObjects: 0.283800 ms CreateObjectMapping: 0.217900 ms MarkObjects: 2.315500 ms  DeleteObjects: 0.465600 ms)
+>>>>>>> 1371c9eac6b019b26ba08d284fb26876aecb0b8b
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -524,6 +807,7 @@ Assets/LOW POLY ASSETS/Iron_Man_Mark_44_Hulkbuster/Iron_Man_Mark_44_Hulkbuster.c
 
 Please note that FBX files exported from Cinema4D are still supported.
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.006621 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\ultimo.media\Documents\GitHub\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
@@ -532,12 +816,27 @@ Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Refreshing native plugins compatible for Editor in 0.87 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.09 ms.
+=======
+Registered in 0.006592 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ultimo.media\Documents\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ultimo.media\Documents\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.02 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+>>>>>>> 1371c9eac6b019b26ba08d284fb26876aecb0b8b
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+<<<<<<< HEAD
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\ultimo.media\Documents\GitHub\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\ultimo.media\Documents\GitHub\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+=======
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in C:\Users\ultimo.media\Documents\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\ultimo.media\Documents\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+>>>>>>> 1371c9eac6b019b26ba08d284fb26876aecb0b8b
   at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
   at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <252f5a151e57406087568ebdeb88d5fe>:0 
    --- End of inner exception stack trace ---
@@ -554,10 +853,17 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+<<<<<<< HEAD
 - Completed reload, in  1.084 seconds
 Domain Reload Profiling:
 	ReloadAssembly (1084ms)
 		BeginReloadAssembly (122ms)
+=======
+- Completed reload, in  1.175 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1176ms)
+		BeginReloadAssembly (125ms)
+>>>>>>> 1371c9eac6b019b26ba08d284fb26876aecb0b8b
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
@@ -730,6 +1036,7 @@ Domain Reload Profiling:
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 			CreateAndSetChildDomain (34ms)
 		EndReloadAssembly (900ms)
 			LoadAssemblies (79ms)
@@ -749,16 +1056,46 @@ Domain Reload Profiling:
 				ProcessInitializeOnLoadAttributes (318ms)
 				ProcessInitializeOnLoadMethodAttributes (30ms)
 				AfterProcessingInitializeOnLoad (8ms)
+=======
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (964ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (258ms)
+				TypeCache.Initialize (251ms)
+					TypeCache.ScanAssembly (246ms)
+				ResolveRequiredComponents (6ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (519ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (9ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (362ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (7ms)
+>>>>>>> 1371c9eac6b019b26ba08d284fb26876aecb0b8b
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 2.57 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.08 ms.
 Unloading 4657 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 36 unused Assets / (1.6 MB). Loaded Objects now: 5275.
 Memory consumption went from 0.71 GB to 0.71 GB.
 Total: 3.775600 ms (FindLiveObjects: 0.351800 ms CreateObjectMapping: 0.314000 ms MarkObjects: 2.757900 ms  DeleteObjects: 0.351000 ms)
+=======
+Refreshing native plugins compatible for Editor in 2.16 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 4659 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.6 MB). Loaded Objects now: 5259.
+Memory consumption went from 0.71 GB to 0.71 GB.
+Total: 3.111100 ms (FindLiveObjects: 0.308500 ms CreateObjectMapping: 0.228300 ms MarkObjects: 2.286900 ms  DeleteObjects: 0.286800 ms)
+>>>>>>> 1371c9eac6b019b26ba08d284fb26876aecb0b8b
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -776,6 +1113,7 @@ Assets/LOW POLY ASSETS/Iron_Man_Mark_44_Hulkbuster/Iron_Man_Mark_44_Hulkbuster.c
 
 Please note that FBX files exported from Cinema4D are still supported.
 Registering precompiled user dll's ...
+<<<<<<< HEAD
 Registered in 0.007006 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\ultimo.media\Documents\GitHub\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
@@ -1419,13 +1757,27 @@ Symbol file LoadedFromMemory doesn't match image C:\Users\ultimo.media\Documents
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Refreshing native plugins compatible for Editor in 0.90 ms, found 6 plugins.
+=======
+Registered in 0.006256 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ultimo.media\Documents\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ultimo.media\Documents\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 6 plugins.
+>>>>>>> 1371c9eac6b019b26ba08d284fb26876aecb0b8b
 Preloading 1 native plugins for Editor in 0.12 ms.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+<<<<<<< HEAD
   at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x0003d] in C:\Users\ultimo.media\Documents\GitHub\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
   at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x0007b] in C:\Users\ultimo.media\Documents\GitHub\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+=======
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in C:\Users\ultimo.media\Documents\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\ultimo.media\Documents\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+>>>>>>> 1371c9eac6b019b26ba08d284fb26876aecb0b8b
   at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
   at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <252f5a151e57406087568ebdeb88d5fe>:0 
    --- End of inner exception stack trace ---
@@ -1442,14 +1794,22 @@ Mono: successfully reloaded assembly
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
+<<<<<<< HEAD
 - Completed reload, in  1.107 seconds
 Domain Reload Profiling:
 	ReloadAssembly (1107ms)
 		BeginReloadAssembly (126ms)
+=======
+- Completed reload, in  1.156 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1157ms)
+		BeginReloadAssembly (125ms)
+>>>>>>> 1371c9eac6b019b26ba08d284fb26876aecb0b8b
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
+<<<<<<< HEAD
 			CreateAndSetChildDomain (36ms)
 		EndReloadAssembly (890ms)
 			LoadAssemblies (82ms)
@@ -1737,10 +2097,24 @@ Domain Reload Profiling:
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (48ms)
 			SetupLoadedEditorAssemblies (449ms)
+=======
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (945ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (255ms)
+				TypeCache.Initialize (249ms)
+					TypeCache.ScanAssembly (244ms)
+				ResolveRequiredComponents (6ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (504ms)
+>>>>>>> 1371c9eac6b019b26ba08d284fb26876aecb0b8b
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (20ms)
-				SetLoadedEditorAssemblies (6ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (8ms)
 				RefreshPlugins (1ms)
+<<<<<<< HEAD
 				BeforeProcessingInitializeOnLoad (76ms)
 				ProcessInitializeOnLoadAttributes (309ms)
 				ProcessInitializeOnLoadMethodAttributes (28ms)
@@ -1828,17 +2202,31 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (75ms)
 				ProcessInitializeOnLoadAttributes (299ms)
 				ProcessInitializeOnLoadMethodAttributes (25ms)
+=======
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (351ms)
+				ProcessInitializeOnLoadMethodAttributes (26ms)
+>>>>>>> 1371c9eac6b019b26ba08d284fb26876aecb0b8b
 				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 2.66 ms, found 6 plugins.
 Preloading 1 native plugins for Editor in 0.08 ms.
 Unloading 4658 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 36 unused Assets / (1.6 MB). Loaded Objects now: 5324.
 Memory consumption went from 0.71 GB to 0.71 GB.
 Total: 4.037600 ms (FindLiveObjects: 0.386400 ms CreateObjectMapping: 0.437500 ms MarkObjects: 2.805500 ms  DeleteObjects: 0.407300 ms)
+=======
+Refreshing native plugins compatible for Editor in 2.10 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 4659 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.6 MB). Loaded Objects now: 5263.
+Memory consumption went from 0.71 GB to 0.71 GB.
+Total: 3.970000 ms (FindLiveObjects: 0.378800 ms CreateObjectMapping: 0.348900 ms MarkObjects: 2.915000 ms  DeleteObjects: 0.326500 ms)
+>>>>>>> 1371c9eac6b019b26ba08d284fb26876aecb0b8b
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -1850,3 +2238,482 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+<<<<<<< HEAD
+=======
+========================================================================
+Received Import Request.
+  Time since last request: 533.541956 seconds.
+  path: Assets/Scripts/GameMenuManager.cs
+  artifactKey: Guid(227fb3aeb21e2114d914e86905504c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameMenuManager.cs using Guid(227fb3aeb21e2114d914e86905504c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d800ec75c23dd3db9cde12d47ec7163') in 0.010792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 222.948533 seconds.
+  path: Assets/Scripts/GameMenuManager.cs
+  artifactKey: Guid(227fb3aeb21e2114d914e86905504c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameMenuManager.cs using Guid(227fb3aeb21e2114d914e86905504c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c72c8e27a8fd8a2bbc29c6e9668c26') in 0.001235 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 54.209921 seconds.
+  path: Assets/Scripts/GameMenuManager.cs
+  artifactKey: Guid(227fb3aeb21e2114d914e86905504c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameMenuManager.cs using Guid(227fb3aeb21e2114d914e86905504c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a8ec437f215b35c6073dfef10ed454') in 0.001082 seconds 
+========================================================================
+Received Prepare
+Assets/LOW POLY ASSETS/Iron_Man_Mark_44_Hulkbuster/Iron_Man_Mark_44_Hulkbuster.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Registering precompiled user dll's ...
+Registered in 0.005855 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ultimo.media\Documents\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ultimo.media\Documents\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.79 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.22 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in C:\Users\ultimo.media\Documents\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\ultimo.media\Documents\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <252f5a151e57406087568ebdeb88d5fe>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <252f5a151e57406087568ebdeb88d5fe>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <252f5a151e57406087568ebdeb88d5fe>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <4ce403b7cdf744109283ae55cdc24285>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  1.196 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1197ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (36ms)
+		EndReloadAssembly (980ms)
+			LoadAssemblies (81ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (275ms)
+				TypeCache.Initialize (269ms)
+					TypeCache.ScanAssembly (263ms)
+				ResolveRequiredComponents (6ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (516ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (362ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.07 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+Unloading 4659 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 36 unused Assets / (1.6 MB). Loaded Objects now: 5267.
+Memory consumption went from 0.71 GB to 0.71 GB.
+Total: 3.156000 ms (FindLiveObjects: 0.274200 ms CreateObjectMapping: 0.267300 ms MarkObjects: 2.312800 ms  DeleteObjects: 0.300900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 122.478480 seconds.
+  path: Assets/Materials/memes leemao/4xnali.jpg
+  artifactKey: Guid(1180731361d133742aacf8778a3c0563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/memes leemao/4xnali.jpg using Guid(1180731361d133742aacf8778a3c0563) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89591e6a5fe3940a9b9346c2e3795ff4') in 0.057450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/LOW POLY ASSETS/LowPolyCliffPack/Models/Clifftile Convex.dae
+  artifactKey: Guid(e32d5719741f7dd4f972f523484077f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOW POLY ASSETS/LowPolyCliffPack/Models/Clifftile Convex.dae using Guid(e32d5719741f7dd4f972f523484077f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f66fa524f33c3764207663bbc8aea48') in 0.069862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/LOW POLY ASSETS/ferrari_lowpoly.fbx
+  artifactKey: Guid(f90b0add62f31d7439655d9ec136cb78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOW POLY ASSETS/ferrari_lowpoly.fbx using Guid(f90b0add62f31d7439655d9ec136cb78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cede6424506cf13a368bf3931b1dbad') in 0.227581 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Materials/bitcoinroom/door_texture_by_ancientorange_d4ix003-fullview.jpg
+  artifactKey: Guid(d9983f539464f314a888c74d8cbccc6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/bitcoinroom/door_texture_by_ancientorange_d4ix003-fullview.jpg using Guid(d9983f539464f314a888c74d8cbccc6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e22a83de88e2e857be34861af0708222') in 0.008503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/LOW POLY ASSETS/NeatFreakDesk.fbx
+  artifactKey: Guid(c6fd0dec34a9e8040a4049e5bb3f6303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOW POLY ASSETS/NeatFreakDesk.fbx using Guid(c6fd0dec34a9e8040a4049e5bb3f6303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20116138f23f6a4406f5ccc3203f5e00') in 0.270998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/LOW POLY ASSETS/marlboro-pack-of-20-cigarettes/source/FBXMarlboro.fbx
+  artifactKey: Guid(b65e41e28b4f8444d9f5e72a1e369309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOW POLY ASSETS/marlboro-pack-of-20-cigarettes/source/FBXMarlboro.fbx using Guid(b65e41e28b4f8444d9f5e72a1e369309) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b26b91e6485b34a028bae002d83db29') in 0.044160 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/LOW POLY ASSETS/marlboro-pack-of-20-cigarettes/source/MarlboroModel.obj
+  artifactKey: Guid(e5d23332eca982f4cab2ea310905d55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOW POLY ASSETS/marlboro-pack-of-20-cigarettes/source/MarlboroModel.obj using Guid(e5d23332eca982f4cab2ea310905d55a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d0db299c870d8869a1411c4bc4a4217') in 0.181263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.130407 seconds.
+  path: Assets/XR/XRGeneralSettingsPerBuildTarget.asset
+  artifactKey: Guid(50a8821391df40c4499977916022b95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettingsPerBuildTarget.asset using Guid(50a8821391df40c4499977916022b95e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Assets/LOW POLY ASSETS/Iron_Man_Mark_44_Hulkbuster/Iron_Man_Mark_44_Hulkbuster.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.AssetDatabase/<FindEverywhere>d__39`1<UnityEditor.HierarchyProperty>:MoveNext ()
+UnityEditor.AssetDatabase/<FindAllAssets>d__36:MoveNext ()
+System.Linq.Enumerable/SelectEnumerableIterator`2<UnityEditor.HierarchyProperty, string>:MoveNext ()
+System.Linq.Set`1<string>:UnionWith (System.Collections.Generic.IEnumerable`1<string>)
+System.Linq.Enumerable/DistinctIterator`1<string>:FillSet ()
+System.Linq.Enumerable/DistinctIterator`1<string>:ToArray ()
+System.Linq.Enumerable:ToArray<string> (System.Collections.Generic.IEnumerable`1<string>)
+UnityEditor.AssetDatabase:FindAssets (UnityEditor.SearchFilter)
+UnityEditor.AssetDatabase:FindAssets (string,string[])
+UnityEditor.AssetDatabase:FindAssets (string)
+UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget:TryFindSettingsAsset (UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget&) (at Library/PackageCache/com.unity.xr.management@4.4.0/Editor/XRGeneralSettingsPerBuildTarget.cs:41)
+UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget:XRGeneralSettingsForBuildTarget (UnityEditor.BuildTargetGroup) (at Library/PackageCache/com.unity.xr.management@4.4.0/Editor/XRGeneralSettingsPerBuildTarget.cs:253)
+UnityEditor.XR.Management.XRGeneralSettingsPerBuildTarget:OnEnable () (at Library/PackageCache/com.unity.xr.management@4.4.0/Editor/XRGeneralSettingsPerBuildTarget.cs:105)
+
+[Library/PackageCache/com.unity.xr.management@4.4.0/Editor/XRGeneralSettingsPerBuildTarget.cs line 41]
+
+ -> (artifact id: '600f7ab1d782bb9a041bf477837c67ee') in 0.033388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.189089 seconds.
+  path: Assets/Vr package/VR Rig.prefab
+  artifactKey: Guid(ff36695b099212442a339d190f31b100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Vr package/VR Rig.prefab using Guid(ff36695b099212442a339d190f31b100) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75b2da79ae584ab0c1bd2eac21586cdb') in 0.054194 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.312489 seconds.
+  path: Assets/LOW POLY ASSETS/glock 19.fbx
+  artifactKey: Guid(4512f976c5714f948800c28947b6f2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/LOW POLY ASSETS/glock 19.fbx using Guid(4512f976c5714f948800c28947b6f2b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a245a605449bdcd5f4df40a9b50e8dd') in 0.179514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.623811 seconds.
+  path: Assets/Phat Beats/Beethoven's 5th Symphony (128 kbps).mp3
+  artifactKey: Guid(298422db94816ee41b34258b9c26cc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Phat Beats/Beethoven's 5th Symphony (128 kbps).mp3 using Guid(298422db94816ee41b34258b9c26cc9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34b0839aaac1fdfda740ac60a67d7b32') in 0.289346 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Phat Beats/Skrillex-Scary monsters and nice spirites low quality (128 kbps).mp3
+  artifactKey: Guid(8fef59a78f43ed84fa5a66fece9df3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Phat Beats/Skrillex-Scary monsters and nice spirites low quality (128 kbps).mp3 using Guid(8fef59a78f43ed84fa5a66fece9df3e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25a1465527ba2800c2ac9bf05f8cf27c') in 0.012545 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Phat Beats/skrillex - bangarang (low quality sound) (128 kbps).mp3
+  artifactKey: Guid(dbb7bf896a0f93b4d884f1b9e46077d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Phat Beats/skrillex - bangarang (low quality sound) (128 kbps).mp3 using Guid(dbb7bf896a0f93b4d884f1b9e46077d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b2a353f14228166d976f307a7a961d9') in 0.009723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.622074 seconds.
+  path: Assets/Prefabs/Door.prefab
+  artifactKey: Guid(93a1f17cd1ea24349a6beaa559200f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Door.prefab using Guid(93a1f17cd1ea24349a6beaa559200f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139ad5d133c4458b1df8e13905a99c49') in 0.008747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/Platinum.prefab
+  artifactKey: Guid(a78829fccc13c014c96667ca66f4923d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Platinum.prefab using Guid(a78829fccc13c014c96667ca66f4923d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa0e85ebb26cdece0bfbe6f73a1ba9dd') in 0.012615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/HandPrefab.prefab
+  artifactKey: Guid(d38f966de00b7ad4eaa5aedcfbf472b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/HandPrefab.prefab using Guid(d38f966de00b7ad4eaa5aedcfbf472b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a55fceb34135ab51063c0d2a1f6f8998') in 0.011846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Prefabs/Silver.prefab
+  artifactKey: Guid(8de16b9e89faf184e8f291cf6eb2d0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Silver.prefab using Guid(8de16b9e89faf184e8f291cf6eb2d0f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db0033342c59c1eb33d934ae3378f87') in 0.018736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Prefabs/LeftHandPresence.prefab
+  artifactKey: Guid(93a0663277a4c404abb5da564c976c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/LeftHandPresence.prefab using Guid(93a0663277a4c404abb5da564c976c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '531c30e8ae7d962ceac05c1116529727') in 0.005378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/TerrainPrefab.prefab
+  artifactKey: Guid(9ab47ac1fdf0fc54e974c9dbaac2a720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/TerrainPrefab.prefab using Guid(9ab47ac1fdf0fc54e974c9dbaac2a720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621deea9984d5acbcfe6fb98f2688e79') in 0.168912 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Prefabs/Gold.prefab
+  artifactKey: Guid(5a112b47fc17aef4abe7bbd0dbdd10bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Gold.prefab using Guid(5a112b47fc17aef4abe7bbd0dbdd10bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b1ded26fc235af1ec49399161694b76') in 0.009848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Prefabs/RightHandPresence.prefab
+  artifactKey: Guid(2b492818f17cdb645a19eabfa9b36257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/RightHandPresence.prefab using Guid(2b492818f17cdb645a19eabfa9b36257) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0c062da0de907f9c9ecffdf1ccad06d') in 0.004873 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Prefabs/projectile.prefab
+  artifactKey: Guid(a45a9913fb43b6149990b09d2e32499b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/projectile.prefab using Guid(a45a9913fb43b6149990b09d2e32499b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa69158d8f2e107b0c700333c57917c6') in 0.011858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.028191 seconds.
+  path: Assets/XRI/Settings
+  artifactKey: Guid(a1925064917eeab4984ab4de4337fef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI/Settings using Guid(a1925064917eeab4984ab4de4337fef4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870d8c7402207308baff614a59e39549') in 0.001617 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.377181 seconds.
+  path: Assets/XRI/Settings/Resources
+  artifactKey: Guid(cdf858220827ada43b981c270e00691d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI/Settings/Resources using Guid(cdf858220827ada43b981c270e00691d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd019add5403e6c0e8c8ebc20b884cd88') in 0.002023 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.069632 seconds.
+  path: Assets/XRI/Settings/Resources/InteractionLayerSettings.asset
+  artifactKey: Guid(66a17a5a0eb6c3b4281fc29c9a217f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XRI/Settings/Resources/InteractionLayerSettings.asset using Guid(66a17a5a0eb6c3b4281fc29c9a217f91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ea87c2daeb437908ddd6387e5f8a5d') in 0.003184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1646.538767 seconds.
+  path: Assets/Scripts/HandPresence.cs
+  artifactKey: Guid(64c2dae762a2a904cb9dbef270422c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HandPresence.cs using Guid(64c2dae762a2a904cb9dbef270422c64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8c8ff6f1f446b46e64539b42cbb918') in 0.001716 seconds 
+========================================================================
+Received Prepare
+Assets/LOW POLY ASSETS/Iron_Man_Mark_44_Hulkbuster/Iron_Man_Mark_44_Hulkbuster.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Registering precompiled user dll's ...
+Registered in 0.006131 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ultimo.media\Documents\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ultimo.media\Documents\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.85 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.14 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in C:\Users\ultimo.media\Documents\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\ultimo.media\Documents\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <252f5a151e57406087568ebdeb88d5fe>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <252f5a151e57406087568ebdeb88d5fe>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <252f5a151e57406087568ebdeb88d5fe>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <4ce403b7cdf744109283ae55cdc24285>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  1.209 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1209ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (41ms)
+		EndReloadAssembly (986ms)
+			LoadAssemblies (88ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (265ms)
+				TypeCache.Initialize (259ms)
+					TypeCache.ScanAssembly (253ms)
+				ResolveRequiredComponents (6ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (528ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (22ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (88ms)
+				ProcessInitializeOnLoadAttributes (373ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.11 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 4658 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 37 unused Assets / (1.5 MB). Loaded Objects now: 5298.
+Memory consumption went from 0.72 GB to 0.72 GB.
+Total: 3.342200 ms (FindLiveObjects: 0.298200 ms CreateObjectMapping: 0.264200 ms MarkObjects: 2.467600 ms  DeleteObjects: 0.311200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Assets/LOW POLY ASSETS/Iron_Man_Mark_44_Hulkbuster/Iron_Man_Mark_44_Hulkbuster.c4d: Unity no longer supports importing Cinema 4D files directly, but we're working with Maxon to make the experience better. To import Cinema 4D files, install Maxon's external importer. You can find more information on the Unity Forum: https://on.unity.com/c4d.
+
+Please note that FBX files exported from Cinema4D are still supported.
+Registering precompiled user dll's ...
+Registered in 0.005181 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\ultimo.media\Documents\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\ultimo.media\Documents\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.81 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.11 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Unity.XR.Oculus.OculusLoader.AssetPathToAbsolutePath (System.String assetPath) [0x00041] in C:\Users\ultimo.media\Documents\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:296 
+  at Unity.XR.Oculus.OculusLoader.EditorLoadOVRPlugin () [0x000b0] in C:\Users\ultimo.media\Documents\DVC411_TechLab_MtDruittMadness\MtGame\Library\PackageCache\com.unity.xr.oculus@3.2.3\Runtime\OculusLoader.cs:281 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <252f5a151e57406087568ebdeb88d5fe>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <252f5a151e57406087568ebdeb88d5fe>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <252f5a151e57406087568ebdeb88d5fe>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in <4ce403b7cdf744109283ae55cdc24285>:0 
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes ()
+
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Completed reload, in  1.189 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1190ms)
+		BeginReloadAssembly (124ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (978ms)
+			LoadAssemblies (78ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (255ms)
+				TypeCache.Initialize (249ms)
+					TypeCache.ScanAssembly (243ms)
+				ResolveRequiredComponents (6ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (540ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (20ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (84ms)
+				ProcessInitializeOnLoadAttributes (388ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (9ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.47 ms, found 6 plugins.
+Preloading 1 native plugins for Editor in 0.07 ms.
+Unloading 4658 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 34 unused Assets / (1.5 MB). Loaded Objects now: 5302.
+Memory consumption went from 0.72 GB to 0.72 GB.
+Total: 3.650900 ms (FindLiveObjects: 0.391100 ms CreateObjectMapping: 0.402200 ms MarkObjects: 2.525400 ms  DeleteObjects: 0.331100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1228.262505 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60ed1bcaa47f38b97da3d54990976dab') in 0.007502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.182780 seconds.
+  path: Assets/Scenes/Start Menu.unity
+  artifactKey: Guid(abaffa8f7022c25448709e1f3f139cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Start Menu.unity using Guid(abaffa8f7022c25448709e1f3f139cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb94643a8b4c6af33c618516e3acd16') in 0.001785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.171014 seconds.
+  path: Assets/Scenes/UI_Hoes.unity
+  artifactKey: Guid(d57868c4ab26798439fe5b7a3701d4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/UI_Hoes.unity using Guid(d57868c4ab26798439fe5b7a3701d4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7080cca4d1c51b5fafa156611ee19e3f') in 0.001275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1069.135232 seconds.
+  path: Assets/Scenes/Start Menu.unity
+  artifactKey: Guid(abaffa8f7022c25448709e1f3f139cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Start Menu.unity using Guid(abaffa8f7022c25448709e1f3f139cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c16577b4b41fe27623bdee522893daa5') in 0.001388 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 236.238337 seconds.
+  path: Assets/Prefabs/Game Menu.prefab
+  artifactKey: Guid(bccdcecf6bdf00946988bfe21adadde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Game Menu.prefab using Guid(bccdcecf6bdf00946988bfe21adadde7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b2f7153139323626803707b03ee3bc7') in 0.065115 seconds 
+>>>>>>> 1371c9eac6b019b26ba08d284fb26876aecb0b8b
